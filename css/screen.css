@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+}
+
+.j-main-wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-size: 12px;
+  color: #000;
+  background: url(../img/photowall-bg.jpg) no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  font-family: Arial, '微软雅黑';
+}
+.j-main-wrap img {
+  width: 100%;
+}
+.j-main-wrap .pw-photo {
+  width: 79.33333%;
+  height: 28.86057%;
+  position: absolute;
+  top: 24.58771%;
+  left: 10.93333%;
+}
+.j-main-wrap .pw-photo-txt {
+  width: 18.8%;
+  height: 10.71964%;
+  position: absolute;
+  top: 40.92954%;
+  right: 13.86667%;
+}
+.j-main-wrap .pw-clip {
+  width: 8%;
+  height: 6.67166%;
+  position: absolute;
+  top: 21.13943%;
+  left: 44.8%;
+}
+.j-main-wrap .pw-to {
+  width: 80%;
+  height: 3.89805%;
+  position: absolute;
+  top: 62.5937%;
+  left: 11.73333%;
+  background: url(../img/pw-to.png) no-repeat top left;
+  background-size: auto 100%;
+  padding-left: 13%;
+  line-height: 26px;
+}
+.j-main-wrap .pw-content {
+  width: 80%;
+  height: 12.74363%;
+  position: absolute;
+  top: 69.64018%;
+  left: 11.73333%;
+  line-height: 20px;
+  opacity: 0.6;
+}
+.j-main-wrap .pw-from-txt {
+  width: 80%;
+  height: 4.27286%;
+  position: absolute;
+  top: 86.13193%;
+  left: 11.73333%;
+  background: url(../img/pw-from.png) no-repeat top left;
+  background-size: auto 100%;
+  padding-left: 13%;
+  line-height: 26px;
+}
+.j-main-wrap .pw-product {
+  position: absolute;
+}
+.j-main-wrap #pw-mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+.j-main-wrap #pw-mask .pw-mask-wrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.9;
+}
+.j-main-wrap #pw-mask .pw-mask-con {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -100px;
+}
+.j-main-wrap #pw-mask .pw-mask-con .mask-ok {
+  display: block;
+  width: 120px;
+  height: 50px;
+  background: #006600;
+}

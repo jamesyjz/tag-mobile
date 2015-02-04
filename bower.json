@@ -1,0 +1,20 @@
+{
+  "name": "tag-mobile",
+  "version": "0.0.0",
+  "authors": [
+    "James Yang <james.yang@nurun.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "gulp": "~3.8.10",
+    "jquery": "~2.1.3"
+  }
+}
